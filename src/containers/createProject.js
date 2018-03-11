@@ -110,7 +110,7 @@ export class CreateProject extends React.Component {
 
                 <FormGroup controlId="formControlsDate">
                   <ControlLabel>Start Date</ControlLabel>
-                  <FormControl type="date" placeholder="Date" min="2018-04-01"
+                  <FormControl type="date" placeholder="Date" 
                     onChange={(e) => { this.values.startDate = e.currentTarget.value }} />
                 </FormGroup>
 
