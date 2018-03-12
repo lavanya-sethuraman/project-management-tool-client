@@ -67,7 +67,7 @@ export class Dashboard extends React.Component {
                 <ListGroupItem header="Technology Used:"> {project.technology}</ListGroupItem>
                 <ListGroupItem header="Project Cost(per hour):"> {project.cost}</ListGroupItem>
 
-                <ListGroupItem header="Tasks">Remaining Hours:{this.hoursRemaining}
+                <ListGroupItem header="Tasks">Task Progress
                   <ListGroup>
                     <ProgressBar active bsStyle="success" now={progress} />
                     <Task project={project} manageTasks={this.updateProject.bind(this)} />
